@@ -1,0 +1,8 @@
+[package]
+name = "score-keeper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+webserver = { path = "../../libs/webserver/" }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
